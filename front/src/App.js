@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import Auth from "./components/auth/Auth";
+import Chats from "./components/chats/Chats";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <div>
               <Routes>
                   <Route exact path={'/auth'} element={<Auth />} />
-                  {/*<Route />*/}
+                  <Route exact path={'/chats'} element={<Chats />} />
               </Routes>
           </div>
       </Router>

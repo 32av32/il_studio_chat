@@ -3,13 +3,13 @@ import './Auth.css'
 
 const Auth = () => {
     return (
-        <div className={'Auth-container'}>
-            <div>
-                <div className={'Auth-title title-text'}>Авторизация</div>
-                <form className={'Auth-form'} action={'#'} method={'post'}>
-                    <input className={'Auth-form-input'} type={'text'} placeholder={'Логин'} />
-                    <input className={'Auth-form-input'} type={'text'} placeholder={'Пароль'} />
-                    <button className={'Auth-form-button'} type={'submit'}>Войти</button>
+        <div className={'Auth-container container'}>
+            <div className={'form-container'}>
+                <div className={'title-block title-text'}>Авторизация</div>
+                <form className={'form-block'} action={'#'} method={'post'}>
+                    <input className={'form-input'} type={'text'} placeholder={'Логин'} />
+                    <input className={'form-input'} type={'text'} placeholder={'Пароль'} />
+                    <button className={'form-button'} type={'submit'}>Войти</button>
                 </form>
             </div>
         </div>

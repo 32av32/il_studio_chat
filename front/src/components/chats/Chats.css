@@ -1,0 +1,30 @@
+.Chats-choose-create-chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+
+    width: 486px;
+}
+
+.Chats-choose-create-chat input {
+    width: 300px;
+}
+
+.Chats-choose-chat {
+    padding: 15px;
+    background-color: #5D5FEF;
+    color: #FFFFFF;
+}
+
+.Chats-choose-chat > button {
+    display: flex;
+
+    cursor: pointer;
+}
+
+.Chats-create-chat {
+    border: 1px solid #E5E5E5;
+    padding: 5px 5px 5px 15px;
+}

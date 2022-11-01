@@ -7,8 +7,70 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+
+    background-color: #F4F4F4;
 }
 
 .title-text {
     font-size: 26px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 40px 30px 10px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 1px #E5E5EA;
+
+    width: 546px;
+}
+
+.title-block {
+    height: 68px;
+    border-bottom: 1px solid #E5E5E5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+    padding: 30px;
+}
+
+.form-input {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 15px;
+    width: 486px;
+}
+
+.form-button {
+    padding: 10px 30px;
+    background: #5D5FEF;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+    transition: 0.3s ease-in;
+}
+
+.form-button:hover {
+    background-color: #04665E;
+}
+
+.out-logo {
+    position: absolute;
+    top: 25px;
+    right: 190px;
 }

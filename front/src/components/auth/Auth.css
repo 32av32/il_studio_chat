@@ -1,63 +1,8 @@
 .Auth-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
     background: url('../../images/backgrounds/Blur.png') no-repeat;
     background-size: cover;
 }
 
 .Auth-container > div {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0 40px 30px 10px rgba(0, 0, 0, 0.25),
-    inset 0 0 0 1px #E5E5EA;
-
-    width: 546px;
     height: 292px;
 }
-
-
-.Auth-title {
-    height: 68px;
-    border-bottom: 1px solid #E5E5E5;
-    margin-bottom: 30px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.Auth-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
-}
-
-.Auth-form-input {
-    border: 1px solid #E5E5E5;
-    border-radius: 5px;
-    padding: 15px;
-    width: 486px;
-    height: 48px;
-}
-
-.Auth-form-button {
-    padding: 10px 30px;
-    background: #5D5FEF;
-    color: #FFFFFF;
-    border-radius: 5px;
-    width: 102px;
-    height: 38px;
-
-    transition: 0.3s ease-in;
-}
-
-.Auth-form-button:hover {
-    background-color: #04665E;
-}
-
-
