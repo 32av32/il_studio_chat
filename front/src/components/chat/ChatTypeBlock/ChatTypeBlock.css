@@ -1,0 +1,19 @@
+.Chat-type-block {
+    padding: 14px 11px 15px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.Chat-type-block-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Chat-type-block-form input {
+    width: 474px;
+}
+
+.Chat-type-block-form button {
+    display: flex;
+    cursor: pointer;
+}

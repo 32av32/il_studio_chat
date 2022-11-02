@@ -1,0 +1,17 @@
+.Chat-messages {
+    flex-basis: 844px;
+
+    padding: 16px 25px;
+}
+
+.Chat-messages-date {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Chat-messages-items {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px
+}

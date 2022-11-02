@@ -1,5 +1,5 @@
 @import 'reset.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 
 body {
@@ -9,10 +9,6 @@ body {
     line-height: 18px;
 
     background-color: #F4F4F4;
-}
-
-.title-text {
-    font-size: 26px;
 }
 
 .container {
@@ -38,6 +34,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title-text {
+    font-size: 26px;
 }
 
 .form-block {
@@ -67,10 +67,4 @@ body {
 
 .form-button:hover {
     background-color: #04665E;
-}
-
-.out-logo {
-    position: absolute;
-    top: 25px;
-    right: 190px;
 }

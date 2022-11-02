@@ -5,7 +5,9 @@ import goToLogo from '../../images/icons/go-to.svg'
 const Chats = () => {
     return (
         <div>
-            <img className={'out-logo'} src={outLogo} alt={'out'}/>
+            <a href={'#'}>
+                <img className={'Chats-out-logo'} src={outLogo} alt={'out'}/>
+            </a>
             <div className={'container'}>
                 <div className={'form-container'}>
                     <div className={'title-block title-text'}>Выберите / создайте чат</div>
@@ -13,7 +15,7 @@ const Chats = () => {
                         <div className={'Chats-choose-create-chat Chats-choose-chat'}>
                             <input className={''} type={'text'} placeholder={'Введите название чата'} />
                             <button>
-                                <img src={goToLogo} alt={'go to chat'} />
+                                <img src={goToLogo} alt={'go-to-chat'} />
                             </button>
                         </div>
                         <form className={'Chats-choose-create-chat Chats-create-chat'} action={'#'} method={'post'}>

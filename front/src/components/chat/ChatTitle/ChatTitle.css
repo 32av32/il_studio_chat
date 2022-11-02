@@ -1,0 +1,12 @@
+.Chat-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.Chat-out-logo {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}

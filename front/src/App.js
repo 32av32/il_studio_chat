@@ -7,6 +7,7 @@ import {
 
 import Auth from "./components/auth/Auth";
 import Chats from "./components/chats/Chats";
+import Chat from "./components/chat/Chat";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Routes>
                   <Route exact path={'/auth'} element={<Auth />} />
                   <Route exact path={'/chats'} element={<Chats />} />
+                  <Route path={'/chat'} element={<Chat />} />
               </Routes>
           </div>
       </Router>

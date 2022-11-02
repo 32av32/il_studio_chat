@@ -1,0 +1,25 @@
+.Chat-container {
+    background-color: #FFFFFF;
+    width: 546px;
+    height: 100vh;
+
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 68px minmax(auto, 844px) 1fr;
+    flex-direction: column;
+}
+
+.Chat-title-text {
+    font-weight: 600;
+}
+
+.Chat-light-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666668;
+}
+
+footer {
+    align-self: end;
+}
